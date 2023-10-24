@@ -14,8 +14,8 @@ var result2 = Add3(ref number1,number2);
 Console.WriteLine(result2);
 Console.WriteLine(number1);*/
 
-Console.WriteLine(Multiply(2, 4));
-Console.WriteLine(Multiply(2, 4, 5));
+Console.WriteLine(Overload.Multiply(2, 4));
+Console.WriteLine(Overload.Multiply(2, 4, 5));
 
 static void Add()
 {
@@ -23,7 +23,7 @@ static void Add()
 }
 
 //default değerler her zaman en sonda olmalı
-static int Add2(int number1, int number2=30)
+static int Add2(int number1, int number2 = 30)
 {
     var result = number1 + number2;
     return result;
@@ -35,14 +35,16 @@ static int Add3(ref int number1, int number2)
     return number1 + number2;
 }
 
-static int Multiply(int number1, int number2)
+public class Overload
 {
-    return number1 * number2;
-}
+    public static int Multiply(int number1, int number2)
+    {
+        return number1 * number2;
+    }
 
-//main içinde olduğu için hata veriyor
-/*
-static int Multiply(int number1, int number2, int number3)
-{
-    return number1 * number2 * number3;
-}*/
+    //main içinde olduğunda hata veriyor
+    public static int Multiply(int number1, int number2, int number3)
+    {
+        return number1 * number2 * number3;
+    }
+}
