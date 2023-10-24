@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpHomework", "CSharpHomework\CSharpHomework.csproj", "{D46A9445-FCD5-436C-8B7E-01AF651377E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCourse", "CSharpHomework\CSharpCourse.csproj", "{D46A9445-FCD5-436C-8B7E-01AF651377E6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals", "Conditionals\Conditionals.csproj", "{D5D9190F-3062-4780-8F9F-B3609C299B90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{2657D9F4-8D2E-4A22-A7D3-EDAE1B5AC25B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D5D9190F-3062-4780-8F9F-B3609C299B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5D9190F-3062-4780-8F9F-B3609C299B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5D9190F-3062-4780-8F9F-B3609C299B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2657D9F4-8D2E-4A22-A7D3-EDAE1B5AC25B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2657D9F4-8D2E-4A22-A7D3-EDAE1B5AC25B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2657D9F4-8D2E-4A22-A7D3-EDAE1B5AC25B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2657D9F4-8D2E-4A22-A7D3-EDAE1B5AC25B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
