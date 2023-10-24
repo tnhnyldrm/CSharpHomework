@@ -17,6 +17,8 @@ Console.WriteLine(number1);*/
 Console.WriteLine(Overload.Multiply(2, 4));
 Console.WriteLine(Overload.Multiply(2, 4, 5));
 
+Console.WriteLine(Add4(1,2,3,4,5,6));
+
 static void Add()
 {
     Console.WriteLine("Added!");
@@ -33,6 +35,11 @@ static int Add3(ref int number1, int number2)
 {
     number1 = 30;
     return number1 + number2;
+}
+
+static int Add4(params int[] numbers)
+{
+    return numbers.Sum();
 }
 
 public class Overload
