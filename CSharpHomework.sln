@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCourse", "CSharpHomework\CSharpCourse.csproj", "{D46A9445-FCD5-436C-8B7E-01AF651377E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpCourse", "CSharpHomework\CSharpCourse.csproj", "{D46A9445-FCD5-436C-8B7E-01AF651377E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals", "Conditionals\Conditionals.csproj", "{D5D9190F-3062-4780-8F9F-B3609C299B90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals", "Conditionals\Conditionals.csproj", "{D5D9190F-3062-4780-8F9F-B3609C299B90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{2657D9F4-8D2E-4A22-A7D3-EDAE1B5AC25B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{2657D9F4-8D2E-4A22-A7D3-EDAE1B5AC25B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{CE40924B-48CF-4A85-9A22-1AF0F6F66825}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{CE40924B-48CF-4A85-9A22-1AF0F6F66825}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{4EA1E290-CF18-4FA2-A445-454811ED3564}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{4EA1E290-CF18-4FA2-A445-454811ED3564}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{51FB36EF-0A76-4CFC-9EB5-772A41A773C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Strings\Strings.csproj", "{51FB36EF-0A76-4CFC-9EB5-772A41A773C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{E9A30C6B-C829-445B-8C9F-A5159E4D7A6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{51FB36EF-0A76-4CFC-9EB5-772A41A773C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51FB36EF-0A76-4CFC-9EB5-772A41A773C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51FB36EF-0A76-4CFC-9EB5-772A41A773C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A30C6B-C829-445B-8C9F-A5159E4D7A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A30C6B-C829-445B-8C9F-A5159E4D7A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A30C6B-C829-445B-8C9F-A5159E4D7A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A30C6B-C829-445B-8C9F-A5159E4D7A6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
